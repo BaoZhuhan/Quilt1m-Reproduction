@@ -1,0 +1,4 @@
+Please use the `--pretrained_weights` argument to indicate the path of the checkpoint to evaluate.
+Since no pretrained weights have been provided, we load the reference pretrained DINO weights.
+Take key state_dict in provided checkpoint dict
+Pretrained weights found at /home/bzh/Repos/quilt1m/data/quilt/histo_models/dino_checkpoint.pth.tar and loaded with msg: <All keys matched successfully>
