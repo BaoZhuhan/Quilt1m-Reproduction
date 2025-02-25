@@ -1,6 +1,6 @@
 # Quilt1m-Reproduction
 
-@Bao Zhuhan
+@Bao Zhuhan, @Wu Jiabei
 
 ## Reproduction of Quilt1m
 
