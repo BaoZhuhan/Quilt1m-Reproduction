@@ -38,6 +38,9 @@ args = parser.parse_args([])
 
 
 def main(args, data_df, recon_df, device, histo_models_dict, video_paths_dict):
+    recon_df = recon_df[recon_df['video_id'].isin(video_paths_dict.keys())]
+    data_df = data_df[data_df['video_id'].isin(video_paths_dict.keys())]
+
     df_vid_ids = list(set(recon_df['video_id'].tolist()))
     
     for vid_id in df_vid_ids:
