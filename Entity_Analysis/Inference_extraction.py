@@ -4,7 +4,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url='https://xiaoai.plus/v1',
-    api_key='sk-yX1hmgEAxRq54Ck6n6ZIzRApwBoW4U8Lz3i5DUbnRLr0m8Wz'
+    api_key='' #API-Key
 )
 
 # 获取 'Test' 目录及其子目录下的所有 .txt 文件
